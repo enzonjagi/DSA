@@ -1,6 +1,6 @@
 # DSA - Data structures and algorithm practice
 
-## 1. Solution one -> ![Palindrome](palindrome.py): Checks if a number is a palindrome
+## 1. Solution one -> [Palindrome](palindrome.py): Checks if a number is a palindrome
 ### Usage:
 
 ```
