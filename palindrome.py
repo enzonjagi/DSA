@@ -8,6 +8,8 @@ by using the following steps:
     4. compare the number stored in the temp var to the reversed number
     5. if they are equal, then the number is a palindrome
     6. if they are not equal then it is not.
+
+PS: Complexity analysis not done yet
 """
 
 import sys
