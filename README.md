@@ -2,8 +2,8 @@
 # Problems We'll be solving
 <p>Borrowed from the article below</p>
 
-[By Taha Sufiyan](https://www.simplilearn.com/coding-interview-questions-article)
-<b>DISCLAIMER: Although there are solutions in the article, the purpose of this repo is to do the challenges by creating my own personalized solutions to the problems</b>
+* [By Taha Sufiyan](https://www.simplilearn.com/coding-interview-questions-article)
+* <b>DISCLAIMER: </b> Although there are solutions in the article, the purpose of this repo is to do the challenges by creating my own personalized solutions to the problems
 
 ## How do you determine if a number is a palindrome?
 ### 1. Solution one(Python) -> [Palindrome](palindrome.py): Checks if a number is a palindrome
