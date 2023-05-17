@@ -30,6 +30,32 @@ Value: stits --> Palindrome
 Value: 12.21 --> Palindrome
 ```
 ## How do you reverse a string in Java?
+* Reversing a string python code can be seen within the [palindrome file](reverse_string.py)
+#### Usage:
+
+```
+python reverse_str.py <list value as arguments>
+```
+- e.g
+
+```
+python reverse_str.py 34 44 676 009 0 free stits 12.21
+```
+- Output
+
+```
+Value: 34 --> Reversed as: 43
+Value: 44 --> Reversed as: 44
+Value: 676 --> Reversed as: 676
+Value: 009 --> Reversed as: 900
+Value: 0 --> Reversed as: 0
+Value: free --> Reversed as: eerf
+Value: stits --> Reversed as: stits
+Value: 12.21 --> Reversed as: 12.21
+```
+
+* This solution will be java based
+
 ## Find the number of occurrences of a character in a String?
 ## How to find out if the given two strings are anagrams or not?
 ## How do you calculate the number of vowels and consonants in a String?
