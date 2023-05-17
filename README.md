@@ -30,7 +30,7 @@ Value: stits --> Palindrome
 Value: 12.21 --> Palindrome
 ```
 ## How do you reverse a string in Python, C, and Java?
-Reversing any python code can be seen within the [reverse file](reverse_string.py)
+Reversing any value in python: [reverse file](reverse_string.py)
 #### Usage:
 
 ```
