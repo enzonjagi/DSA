@@ -32,7 +32,10 @@ def reverse_value(val):
     
     return reversed
 
-for i in range(1, n):
-    num = sys.argv[i]
-    reverse =  reverse_value(num)
-    print(f'Value: {sys.argv[i]} --> Reversed as: {reverse}')
+if len(sys.argv) > 1:
+    for i in range(1, n):
+        num = sys.argv[i]
+        reverse =  reverse_value(num)
+        print(f'Value: {sys.argv[i]} --> Reversed as: {reverse}')
+else:
+    print("Please supply input after the filename.")

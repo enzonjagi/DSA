@@ -52,7 +52,10 @@ def check_palindrome(val):
         return "Palindrome"
     return "Not Palindrome"
 
-for i in range(1, n):
-    num = sys.argv[i]
-    pal_status =  check_palindrome(num)
-    print(f'Value: {sys.argv[i]} --> {pal_status}')
+if len(sys.argv) > 1:
+    for i in range(1, n):
+        num = sys.argv[i]
+        pal_status =  check_palindrome(num)
+        print(f'Value: {sys.argv[i]} --> {pal_status}')
+else:
+    print("Please supply Input after the filename.")
