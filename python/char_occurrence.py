@@ -40,7 +40,7 @@ if len(sys.argv) == 3:
         char = sys.argv[1]
         string = sys.argv[2]
         count = char_occurence(char, string)
-        print(f'The char \'{char}\' appeared {count} times in the string \'{string}\'.')
+        print(f'The char \'{char}\' appeared {count} time(s) in the string \'{string}\'.')
     else:
         print("First input is not a single \'character\'")
 else:
