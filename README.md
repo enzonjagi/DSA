@@ -1,4 +1,4 @@
-# DSA - Data structures and algorithm practice
+# DSA - Data structures and algorithm practice in Python(round one), C(round_two), and Java(round three)
 # Problems We'll be solving
 <p>Borrowed from the article below</p>
 
@@ -6,7 +6,7 @@
 * <b>DISCLAIMER: </b> Although there are solutions in the article, the purpose of this repo is to do the challenges by creating my own personalized solutions to the problems
 
 ## 1. How do you determine if a number is a palindrome?
-### Solution one(Python) -> [Palindrome](palindrome.py): Checks if any given value is a palindrome
+### Solution one(Python) -> [Palindrome](DSA/python/palindrome.py): Checks if any given value is a palindrome
 #### Usage:
 
 ```
@@ -29,8 +29,8 @@ Value: free --> Not Palindrome
 Value: stits --> Palindrome
 Value: 12.21 --> Palindrome
 ```
-## 2. How do you reverse a string in Python, C, and Java?
-### Reversing any value in python: [reverse file](reverse_string.py)
+## 2. How do you reverse a string?
+### Reversing any value in python: [reverse file](DSA/python/reverse_string.py)
 #### Usage:
 
 ```
