@@ -6,7 +6,7 @@
 * <b>DISCLAIMER: </b> Although there are solutions in the article, the purpose of this repo is to do the challenges by creating my own personalized solutions to the problems
 
 ## How do you determine if a number is a palindrome?
-Solution one(Python) -> [Palindrome](palindrome.py): Checks if any given value is a palindrome
+### Solution one(Python) -> [Palindrome](palindrome.py): Checks if any given value is a palindrome
 #### Usage:
 
 ```
@@ -30,7 +30,7 @@ Value: stits --> Palindrome
 Value: 12.21 --> Palindrome
 ```
 ## How do you reverse a string in Python, C, and Java?
-Reversing any value in python: [reverse file](reverse_string.py)
+### Reversing any value in python: [reverse file](reverse_string.py)
 #### Usage:
 
 ```
@@ -53,10 +53,8 @@ Value: free --> Reversed as: eerf
 Value: stits --> Reversed as: stits
 Value: 12.21 --> Reversed as: 12.21
 ```
-
-* This solution will be java based
-
 ## Find the number of occurrences of a character in a String?
+
 ## How to find out if the given two strings are anagrams or not?
 ## How do you calculate the number of vowels and consonants in a String?
 ## How do you get the matching elements in an integer array?
