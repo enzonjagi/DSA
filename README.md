@@ -5,7 +5,7 @@
 * [By Taha Sufiyan](https://www.simplilearn.com/coding-interview-questions-article)
 * <b>DISCLAIMER: </b> Although there are solutions in the article, the purpose of this repo is to do the challenges by creating my own personalized solutions to the problems
 
-## How do you determine if a number is a palindrome?
+## 1. How do you determine if a number is a palindrome?
 ### Solution one(Python) -> [Palindrome](palindrome.py): Checks if any given value is a palindrome
 #### Usage:
 
@@ -29,7 +29,7 @@ Value: free --> Not Palindrome
 Value: stits --> Palindrome
 Value: 12.21 --> Palindrome
 ```
-## How do you reverse a string in Python, C, and Java?
+## 2. How do you reverse a string in Python, C, and Java?
 ### Reversing any value in python: [reverse file](reverse_string.py)
 #### Usage:
 
@@ -53,25 +53,25 @@ Value: free --> Reversed as: eerf
 Value: stits --> Reversed as: stits
 Value: 12.21 --> Reversed as: 12.21
 ```
-## Find the number of occurrences of a character in a String?
+## 3. Find the number of occurrences of a character in a String?
 
-## How to find out if the given two strings are anagrams or not?
-## How do you calculate the number of vowels and consonants in a String?
-## How do you get the matching elements in an integer array?
-## How would you implement the bubble sort algorithm?
-## How would you implement the insertion sort algorithm?
-## How do you reverse an array?
-## How would you swap two numbers without using a third variable?
-## Print a Fibonacci series using recursion?
-## How do you find the factorial of an integer?
-## How do you reverse a Linked List?
-## How would you implement Binary Search?
-## How would you find the second largest number in an array?
-## How do you remove all occurrences of a given character from the input string?
-## Showcase Inheritance with the help of a program?
-## Explain overloading and overriding with the help of a program?
-## How do you check if the given number is prime?
-## How do you sum all the elements in an array?
+## 4. How to find out if the given two strings are anagrams or not?
+## 5. How do you calculate the number of vowels and consonants in a String?
+## 6. How do you get the matching elements in an integer array?
+## 7. How would you implement the bubble sort algorithm?
+## 8. How would you implement the insertion sort algorithm?
+## 9. How do you reverse an array?
+## 10. How would you swap two numbers without using a third variable?
+## 11. Print a Fibonacci series using recursion?
+## 12. How do you find the factorial of an integer?
+## 13. How do you reverse a Linked List?
+## 14. How would you implement Binary Search?
+## 15. How would you find the second largest number in an array?
+## 16. How do you remove all occurrences of a given character from the input string?
+## 17. Showcase Inheritance with the help of a program?
+## 18. Explain overloading and overriding with the help of a program?
+## 19. How do you check if the given number is prime?
+## 20. How do you sum all the elements in an array?
 
 # Top 40 Coding Interview Questions You Should Know
 [By Taha Sufiyan](https://www.simplilearn.com/coding-interview-questions-article)
