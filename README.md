@@ -29,8 +29,8 @@ Value: free --> Not Palindrome
 Value: stits --> Palindrome
 Value: 12.21 --> Palindrome
 ```
-## How do you reverse a string in Java?
-* Reversing a string python code can be seen within the [palindrome file](reverse_string.py)
+## How do you reverse a string in Python, C, and Java?
+Reversing any python code can be seen within the [reverse file](reverse_string.py)
 #### Usage:
 
 ```
