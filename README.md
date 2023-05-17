@@ -6,30 +6,29 @@
 * <b>DISCLAIMER: </b> Although there are solutions in the article, the purpose of this repo is to do the challenges by creating my own personalized solutions to the problems
 
 ## How do you determine if a number is a palindrome?
-### 1. Solution one(Python) -> [Palindrome](palindrome.py): Checks if a number is a palindrome
+### 1. Solution one(Python) -> [Palindrome](palindrome.py): Checks if any given value is a palindrome
 #### Usage:
 
 ```
-python palindrome.py <list numbers as arguments>
+python palindrome.py <list value as arguments>
 ```
 - e.g
 
 ```
-python palindrome.py 3 234 121 456 789 787 34443 569
+python palindrome.py 34 44 676 009 0 free stits 12.21
 ```
 - Output
 
 ```
-Number: 3 --> Palindrome
-Number: 234 --> Not Palindrome
-Number: 121 --> Palindrome
-Number: 456 --> Not Palindrome
-Number: 789 --> Not Palindrome
-Number: 787 --> Palindrome
-Number: 34443 --> Palindrome
-Number: 569 --> Not Palindrome
+Value: 34 --> Not Palindrome
+Value: 44 --> Palindrome
+Value: 676 --> Palindrome
+Value: 009 --> Not Palindrome
+Value: 0 --> Palindrome
+Value: free --> Not Palindrome
+Value: stits --> Palindrome
+Value: 12.21 --> Palindrome
 ```
-## How do you determine if a string is a palindrome?
 ## How do you reverse a string in Java?
 ## Find the number of occurrences of a character in a String?
 ## How to find out if the given two strings are anagrams or not?
