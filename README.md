@@ -7,7 +7,7 @@
 * <b>DISCLAIMER: </b> Although there are solutions in the article, the purpose of this repo is to do the challenges by creating my own personalized solutions to the problems
 
 ## 1. How do you determine if a number is a palindrome?
-### Python Solution [palindrome.py](/python/palindrome.py): Checks if any given value is a palindrome
+### Python Solution [palindrome.py](/python/palindrome.py).
 #### Usage:
 
 ```
