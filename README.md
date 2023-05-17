@@ -1,4 +1,5 @@
-# DSA - Data structures and algorithm practice in Python(round one), C(round_two), and Java(round three)
+# DSA - Data structures and algorithm practice 
+## Python(round one), C(round_two), and Java(round three)
 # Problems We'll be solving
 <p>Borrowed from the article below</p>
 
@@ -54,7 +55,23 @@ Value: stits --> Reversed as: stits
 Value: 12.21 --> Reversed as: 12.21
 ```
 ## 3. Find the number of occurrences of a character in a String?
+### Python --> [char_occurence.py](DSA/python/char_occurrence.py)
+#### Usage:
 
+```
+python python/char_occurrence.py <char> <string>
+
+```
+- e.g
+
+```
+python python/char_occurrence.py 2 333323
+```
+- Output
+
+```
+The char '2' appeared 1 times in the string '333323'.
+```
 ## 4. How to find out if the given two strings are anagrams or not?
 ## 5. How do you calculate the number of vowels and consonants in a String?
 ## 6. How do you get the matching elements in an integer array?
