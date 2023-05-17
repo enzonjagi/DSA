@@ -70,7 +70,7 @@ python python/char_occurrence.py 2 333323
 - Output
 
 ```
-The char '2' appeared 1 times in the string '333323'.
+The char '2' appeared 1 time(s) in the string '333323'.
 ```
 ## 4. How to find out if the given two strings are anagrams or not?
 ## 5. How do you calculate the number of vowels and consonants in a String?
