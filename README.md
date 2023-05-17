@@ -7,7 +7,7 @@
 * <b>DISCLAIMER: </b> Although there are solutions in the article, the purpose of this repo is to do the challenges by creating my own personalized solutions to the problems
 
 ## 1. How do you determine if a number is a palindrome?
-### Python Solution [Palindrome](/python/palindrome.py): Checks if any given value is a palindrome
+### Python Solution [palindrome.py](/python/palindrome.py): Checks if any given value is a palindrome
 #### Usage:
 
 ```
@@ -31,7 +31,7 @@ Value: stits --> Palindrome
 Value: 12.21 --> Palindrome
 ```
 ## 2. How do you reverse a string?
-### Python Solution: [reverse file](/python/reverse_string.py)
+### Python Solution: [reverse_string.py](/python/reverse_string.py)
 #### Usage:
 
 ```
