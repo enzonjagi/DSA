@@ -55,7 +55,7 @@ Value: stits --> Reversed as: stits
 Value: 12.21 --> Reversed as: 12.21
 ```
 ## 3. Find the number of occurrences of a character in a String?
-### Python --> [char_occurence.py](DSA/python/char_occurrence.py)
+### Python --> [char_occurence.py](/python/char_occurrence.py)
 #### Usage:
 
 ```
