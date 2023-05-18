@@ -11,11 +11,12 @@ Steps I'll be using:
     1. Receive 'string_a' and 'string_b' as input.
     2. Check the length of both strings to see if they match, 
     if they don't they are not anagrams, if they do proceed to, 
-    3. Loop through each unique letter in 'string_a' twice to check if it occurs 
+    3. Remove characters that are not letters from both strings,
+    4. Loop through each letter in 'string_a' twice to check if it occurs 
     the same number of times on both strings.
     4. if one letter does not match in number of occurences,
     then they are not anagrams.
-    5. if all letter match in number of occurences, 
+    5. if all letters match in number of occurences, 
     then the strings are anagrams of each other.
 
 TODO Add the complexity analysis of this file here:
