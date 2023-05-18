@@ -66,7 +66,23 @@ def compare_occurence(char, string_a, string_b):
         are_match = 0
     
     return are_match
+
+def remove_special_chars(string):
+    """This function removes special characters and spaces from a string
     
+    Parameter:
+        * string
+    Return:
+        * trun_string: truncated string
+    """
+
+    trun_string = ''
+
+    for char in string:
+        f = filter(str.isalpha, string)
+        trun_string = "".join(f)
+
+    return trun_string 
 
 def are_anagrams(string_a, string_b):
     """The purpose of this file is to check if two strings supplied are anagrams.
@@ -83,30 +99,31 @@ def are_anagrams(string_a, string_b):
     """
 
     anagram_status = ''
-    length, count = 0, 0
+    trun_string_a = remove_special_chars(string_a)
+    trun_string_b = remove_special_chars(string_b)
 
-    if len(string_a) != len(string_b):
+    if len(trun_string_a) != len(trun_string_b):
         anagram_status = f'\'{string_a}\' and \'{string_b}\' are not anagrams'
         return anagram_status
     else:
-        length = len(string_a)
-        while count < length:
-            char = string_a[count]
-            # for char in string_a:
-            # TODO Ensure the code only checks letters not all characters
-            if re.match("[^a-zA-Z0-9]", char):
-                match = compare_occurence(char, string_a, string_b)
-                if match == 0:
-                    anagram_status = f'\'{string_a}\' and \'{string_b}\' are not anagrams'
-                    return anagram_status
-            count += 1
-
+        for char in trun_string_a:
+            match = compare_occurence(char, trun_string_a, trun_string_b)
+            if match == 0:
+                anagram_status = f'\'{string_a}\' and \'{string_b}\' are not anagrams'
+                return anagram_status
         # if the code get's to this point then it means the strings are anagrams
         anagram_status = f'\'{string_a}\' and \'{string_b}\' are anagrams'
     
     return anagram_status
 
 
-    
-print(are_anagrams('name', 'mane'))
-print(are_anagrams("I'm a dot in place.", "A decimal point"))
+if len(sys.argv) == 3:
+    string_a = sys.argv[1]
+    string_b = sys.argv[2]
+    print(are_anagrams(string_a, string_b))
+
+else:
+    print("Please supply two strings separated by a space after the filename.")    
+
+# print(are_anagrams('name', 'mane'))
+# print(are_anagrams("I'm a dot in place.", "A decimal point"))
