@@ -73,6 +73,33 @@ python python/char_occurrence.py 2 333323
 The char '2' appeared 1 time(s) in the string '333323'.
 ```
 ## 4. How to find out if the given two strings are anagrams or not?
+### Python Solution [anagrams.py](/python/anagrams.py)
+#### Usage:
+
+```
+python python/anagrams.py <string_a> <string_b>
+
+```
+- e.g
+
+```
+python python/anagrams.py  "I'm a dot in place." "A decimal point"
+```
+- Output
+
+```
+'I'm a dot in place.' and 'A decimal point' are anagrams
+
+```
+```
+python python/anagrams.py  "njagi ndungo" "omar njagi"
+```
+- Output
+
+```
+'njagi ndungo' and 'omar njagi' are not anagrams
+
+```
 ## 5. How do you calculate the number of vowels and consonants in a String?
 ## 6. How do you get the matching elements in an integer array?
 ## 7. How would you implement the bubble sort algorithm?
