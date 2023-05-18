@@ -91,6 +91,7 @@ python python/anagrams.py  "I'm a dot in place." "A decimal point"
 'I'm a dot in place.' and 'A decimal point' are anagrams
 
 ```
+eg.2
 ```
 python python/anagrams.py  "njagi ndungo" "omar njagi"
 ```
