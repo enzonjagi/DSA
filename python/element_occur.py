@@ -14,6 +14,7 @@ import sys
 """
 Given an array of integers, where all elements but one occur twice, 
 find the unique element.
+
 Steps to solve this:
     1. Find out how many times the element occurs in the array: 
     we use the first function for this.
