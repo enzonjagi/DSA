@@ -143,12 +143,12 @@ python python/matching_elements.py <a list of integers>
 - e.g
 
 ```
- python python/matching_elements.py 1 2 3 4 5 5 6 7 8 9 10
+ python python/matching_elements.py 1 2 3 4 5 5 6 6 7 8 9 10
 ```
 - Output
 
 ```
-The elements [5] have a match in the array [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10].
+The elements [5, 6] have a match in the array [1, 2, 3, 4, 5, 5, 6, 6, 7, 8, 9, 10].
 ```
 eg.2
 ```
