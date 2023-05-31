@@ -93,6 +93,5 @@ else:
             arry.append(int(sys.argv[i]))
 
     print(matching_elements(arry))
-    print(find_matching(arry))
 # print(matching_elements([1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 9, 10]))
 # print(matching_elements([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
