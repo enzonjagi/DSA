@@ -133,6 +133,50 @@ eg.2
 No arguments provided
 ```
 ## 6. How do you get the matching elements in an integer array?
+### Python Solution [matching_elements.py](/python/matching_elements.py)
+#### Usage:
+
+```
+python python/matching_elements.py <a list of integers>
+
+```
+- e.g
+
+```
+ python python/matching_elements.py 1 2 3 4 5 5 6 7 8 9 10
+```
+- Output
+
+```
+The elements [5] have a match in the array [1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10].
+```
+eg.2
+```
+ python python/matching_elements.py 1 2 3 4 5 6 7 8 9 10
+```
+- Output
+
+```
+The array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] has no matching elements.
+```
+eg.3
+```
+ python python/matching_elements.py
+```
+- Output
+
+```
+Please input a list of integers.
+```
+eg.4
+```
+ python python/matching_elements.py a 2 3 4 5 6 7 8 9 1q
+```
+- Output
+
+```
+The array [2, 3, 4, 5, 6, 7, 8, 9] has no matching elements.
+```
 ## 7. How would you implement the bubble sort algorithm?
 ## 8. How would you implement the insertion sort algorithm?
 ## 9. How do you reverse an array?
