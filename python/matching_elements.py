@@ -80,7 +80,7 @@ def matching_elements(arr):
 
     if len(matching_elms) == 0:
         return f"The array {arr} has no matching elements."
-    return f"The elements {matching_elms} have a match in the array {arr}."
+    return f"The element(s) {matching_elms} have a match in the array {arr}."
 
 
 arry = []
