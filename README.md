@@ -185,7 +185,7 @@ The array [2, 3, 4, 5, 6, 7, 8, 9] has no matching elements.
 ## 12. How do you find the factorial of an integer?
 ## 13. How do you reverse a Linked List?
 ## 14. How would you implement Binary Search?
-## 15. How would you find the second largest number in an array?
+## 15. How would you find the second-largest number in an array?
 ## 16. How do you remove all occurrences of a given character from the input string?
 ## 17. Showcase Inheritance with the help of a program?
 ## 18. Explain overloading and overriding with the help of a program?
