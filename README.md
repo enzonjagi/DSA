@@ -102,6 +102,36 @@ python python/anagrams.py  "njagi ndungo" "omar njagi"
 
 ```
 ## 5. How do you calculate the number of vowels and consonants in a String?
+### Python Solution [cons_vow.py](/python/cons_vow.py)
+#### Usage:
+
+```
+ python python/cons_vow.py <string_a> <string_b>
+
+```
+- e.g
+
+```
+ python python/cons_vow.py "aba" "sugar" "osama bin laden" "smooth sailor" "muslimah"
+```
+- Output
+
+```
+aba has 2 vowels and 1 consonants.
+sugar has 2 vowels and 3 consonants.
+osama bin laden has 6 vowels and 7 consonants.
+smooth sailor has 5 vowels and 7 consonants.
+muslimah has 3 vowels and 5 consonants.
+```
+eg.2
+```
+ python python/cons_vow.py
+```
+- Output
+
+```
+No arguments provided
+```
 ## 6. How do you get the matching elements in an integer array?
 ## 7. How would you implement the bubble sort algorithm?
 ## 8. How would you implement the insertion sort algorithm?
