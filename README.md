@@ -180,6 +180,41 @@ The array [2, 3, 4, 5, 6, 7, 8, 9] has no matching elements.
 ## 7. How would you implement the bubble sort algorithm?
 ## 8. How would you implement the insertion sort algorithm?
 ## 9. How do you reverse an array?
+### Python Solution [anagrams.py](/python/anagrams.py)
+#### Usage:
+
+```
+python python/reverse_array.py <arr_item_a> <arr_item_b> ...
+
+```
+- e.g
+
+```
+ python python/reverse_array.py
+```
+- Output
+
+```
+please input an array in list form, with items separated in spaces
+```
+eg.2
+```
+python python/reverse_array.py 2
+```
+- Output
+
+```
+The array [2] is reversed to: [2]
+```
+eg.3
+```
+ python python/reverse_array.py 2 3 4 5 6 7 8 9
+```
+- Output
+
+```
+The array [2, 3, 4, 5, 6, 7, 8, 9] is reversed to: [9, 8, 7, 6, 5, 4, 3, 2]
+```
 ## 10. How would you swap two numbers without using a third variable?
 ## 11. Print a Fibonacci series using recursion?
 ## 12. How do you find the factorial of an integer?
