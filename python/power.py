@@ -46,16 +46,28 @@ def power(num, pow):
         while count < pow:
             result = result * num
             count += 1
+        if isPositive(num) == 0:
+            result *= -1
     elif isPositive(pow) == 0:
         # raise to a negative power
-        pass
+        # TODO Refine this to give an accurate result
+        while count < pow:
+            result = result * num
+            count += 1
+        result = "%5f" % (1.0/result)
     else:
         result = 0
 
     return result
 
 
+print(isPositive(-2))
 print(power(2, 2))
 print(power(2, 3))
 print(power(2, 12))
 print(power(-2, 10))
+print(power(2, -10))
+print(power(-2, -10))
+
+
+
