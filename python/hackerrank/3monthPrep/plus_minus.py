@@ -69,6 +69,6 @@ def plusMinus(arr):
     print(calcRatio(negatives, total))
     print(calcRatio(zeros, total))
 
-print(plusMinus([1,4,5,2,6]))
-print(plusMinus([9,4,3,2,6]))
+print(plusMinus([1,-4,0,2,6]))
+print(plusMinus([-9,4,-3,0,-6]))
 print(plusMinus([1,2,3,9,6]))
