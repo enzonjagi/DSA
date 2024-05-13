@@ -62,8 +62,6 @@ def miniMaxSum(arr):
     
     print(f"{miniSum} {maxiSum}")
 
-if __name__ == '__main__':
-
-    arr = list(map(int, input().rstrip().split()))
-
-    miniMaxSum(arr)
+print(miniMaxSum([1,4,5,2,6]))
+print(miniMaxSum([9,4,3,2,6]))
+print(miniMaxSum([1,2,3,9,6]))

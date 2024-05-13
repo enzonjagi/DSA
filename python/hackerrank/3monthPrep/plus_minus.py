@@ -69,9 +69,6 @@ def plusMinus(arr):
     print(calcRatio(negatives, total))
     print(calcRatio(zeros, total))
 
-if __name__ == '__main__':
-    n = int(input().strip())
-
-    arr = list(map(int, input().rstrip().split()))
-
-    plusMinus(arr)
+print(plusMinus([1,4,5,2,6]))
+print(plusMinus([9,4,3,2,6]))
+print(plusMinus([1,2,3,9,6]))
