@@ -16,7 +16,7 @@ python palindrome.py <list value as arguments>
 - e.g
 
 ```
-python palindrome.py 34 44 676 009 0 free stits 12.21
+python python/palindrome.py 34 44 676 009 0 free stits 12.21
 ```
 - Output
 
@@ -40,7 +40,7 @@ python reverse_str.py <list value as arguments>
 - e.g
 
 ```
-python reverse_str.py 34 44 676 009 0 free stits 12.21
+python python/reverse_string.py 34 44 676 009 0 free stits 12.21
 ```
 - Output
 
