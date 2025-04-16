@@ -226,6 +226,41 @@ The array [2, 3, 4, 5, 6, 7, 8, 9] is reversed to: [9, 8, 7, 6, 5, 4, 3, 2]
 ## 18. Explain overloading and overriding with the help of a program?
 ## 19. How do you check if the given number is prime?
 ## 20. How do you sum all the elements in an array?
+### Python Solution [sum_array.py](/python/sum_array.py)
+#### Usage:
+
+```
+python python/sum_array.py <a list of array elements to sum>
+
+```
+- e.g
+
+```
+ python python/sum_array.py 1 2 3.788888888888
+```
+- Output
+
+```
+6.7889
+```
+eg.2
+```
+ python python/sum_array.py 
+```
+- Output
+
+```
+please input an array in list form, with items separated in spaces
+```
+eg.3
+```
+ python python/sum_array.py free
+```
+- Output
+
+```
+please input numbers in list form, separated with spaces
+```
 
 # Top 40 Coding Interview Questions You Should Know
 [By Taha Sufiyan](https://www.simplilearn.com/coding-interview-questions-article)
