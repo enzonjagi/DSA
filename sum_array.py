@@ -60,14 +60,11 @@ def sumArray(arr):
         return 0
 
     for el in arr:
-        """
         if type(el) == int or type(el) == float:
             tot += el
 
         else:
             return ("The array elements are not integers.")
-        """
-        tot += el
 
     return (f"The sum of the array is {tot}")
 
