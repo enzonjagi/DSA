@@ -266,6 +266,10 @@ please input numbers in list form, separated with spaces
 
 ## 22. Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
+## 23. In this problem, you need to merge two sorted linked lists into one sorted list. Walk me through how you would approach merging these lists and explain your thought process step by step, any edge cases you'd consider, and the time and space complexity of your solution.
+
+## 24. Given a string s, find the length of the longest substring without repeating characters. For example, for the input 'abcabcbb', the answer is 3, because the longest substring without repeating characters is 'abc'.
+
 
 # Top 40 Coding Interview Questions You Should Know
 [By Taha Sufiyan](https://www.simplilearn.com/coding-interview-questions-article)
