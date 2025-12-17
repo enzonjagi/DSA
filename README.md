@@ -262,6 +262,9 @@ eg.3
 please input numbers in list form, separated with spaces
 ```
 
+## 21. Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if open brackets are closed by the same type of brackets and in the correct order. For example, '()' and '()[{}]' are valid but '(]' and '([)]' are not. Explain your approach and any data structures you would use to solve this efficiently.
+
+
 # Top 40 Coding Interview Questions You Should Know
 [By Taha Sufiyan](https://www.simplilearn.com/coding-interview-questions-article)
 
